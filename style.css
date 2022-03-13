@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 476px;
+    min-height: 270px;
+    margin: 15px auto;
+    padding: 12px 0;
+    background-color: #dfdfdf;
+    border-radius: 6px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form__group {
+    margin: 12px 8px 28px 8px;
+}
+
+.input__add {
+    position: absolute;
+    width: 460px;
+    height: 45px;
+    border: 1px solid #989889;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    padding: 12px 0 12px 12px ;
+}
+
+.input__add::placeholder {
+    color: #BBBBBB;
+}
+
+.input__add:focus {
+    outline: 1px solid #868679;
+}
+
+.btn__add {
+    position: relative;
+    top: 13.81px;
+    right: -429px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.todo__task {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 460px;
+    margin: 8px;
+    padding: 12px;
+    background-color: #ffff;
+    border-radius: 6px;
+    border: 1px solid #989898;
+}
+
+.todo__task__text {
+    width: 85%;
+}
+
+.todo__task__btn__check {
+    display: block;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    border: 1px solid #989898;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.todo__task__btn__del {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.task__done {
+    background-color: #989898;
+}
